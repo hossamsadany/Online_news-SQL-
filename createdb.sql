@@ -9,4 +9,4 @@ release_date VARCHAR,
 keywords VARCHAR
 );
 
-\copy articles FROM 'news_articles.csv' DELIMITER ',' CSV HEADER;
+copy articles FROM 'news_articles.csv' DELIMITER ',' CSV HEADER;
