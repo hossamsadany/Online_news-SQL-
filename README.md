@@ -9,10 +9,10 @@ The final results should be sorted from earliest published date to the most rece
 # requirements
 
 Data Type	Column Alias
-- Unique ID of each article, where the first 4 digits represents the journalist ID.	TEXT	article_key
-- Category of the article, in uppercase. 'Food & Drink' and 'Wellness' should be collapsed into a 'Lifestyle' category.	TEXT	category
-- Headline of the article, without the subtitle that appears after the colon (:). For example, 'It Could Happen To You: A Story of SEC Overreach' becomes 'It Could Happen To You'.	TEXT	headline
-- Subtitles of the article, without the headline that appears before the colon (:). For example, 'It Could Happen to You: A Story of SEC Overreach' becomes 'A Story of SEC Overreach'. In cases where a headline does not have a subtitle, the missing value should read ‘None’.	TEXT	subtitle
-- Description of the article. The description should be reduced to the first sentence, up to and including the first period (.) from the short_description column.	TEXT	description
-- Keywords of the article. Multiple keywords will be seperated with a dash (-). If the keyword is missing, the value should read ‘Unknown’.	TEXT	keywords
-- Date the article was published. The data should be displayed in the format resembling the following: ‘Aug 13, 1995’.	TEXT	publish_date
+- Unique ID of each article, where the first 4 digits represents the journalist ID.	Data type: TEXT, Alias: article_key
+- Category of the article, in uppercase. 'Food & Drink' and 'Wellness' should be collapsed into a 'Lifestyle' category.	Data type: TEXT	,Alias: category
+- Headline of the article, without the subtitle that appears after the colon (:). For example, 'It Could Happen To You: A Story of SEC Overreach' becomes 'It Could Happen To You'.	Data type: TEXT	,Alias: headline
+- Subtitles of the article, without the headline that appears before the colon (:). For example, 'It Could Happen to You: A Story of SEC Overreach' becomes 'A Story of SEC Overreach'. In cases where a headline does not have a subtitle, the missing value should read ‘None’.Data type:	TEXT,Alias:	subtitle
+- Description of the article. The description should be reduced to the first sentence, up to and including the first period (.) from the short_description column.Data type:	TEXT,Alias:	description
+- Keywords of the article. Multiple keywords will be seperated with a dash (-). If the keyword is missing, the value should read ‘Unknown’.	Data type: TEXT,Alias:	keywords
+- Date the article was published. The data should be displayed in the format resembling the following: ‘Aug 13, 1995’.Data type: TEXT,Alias:	publish_date
