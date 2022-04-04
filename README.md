@@ -22,7 +22,7 @@ Data Type	Column Alias
 # Output
 - 188 rows of data effected.
 - contains columns names ( article_key , category , headline, subtitle, description, keywords, publish_date).
-- for the same journalist whos his Id starts with 1754.
+- for the same journalist whos his ID starts with 1754.
 - Food and drink , wellness categories have been collabsed into 'lifestyle' category.
 - the headline of the articles without the subtitle that apears after the colon (:).
 - the subtitle of the articles without the headlines that apears before the colon(:) and the missing values has read as 'None'.
