@@ -16,3 +16,6 @@ Data Type	Column Alias
 - Description of the article. The description should be reduced to the first sentence, up to and including the first period (.) from the short_description column.Data type:	TEXT,Alias:	description
 - Keywords of the article. Multiple keywords will be seperated with a dash (-). If the keyword is missing, the value should read ‘Unknown’.	Data type: TEXT,Alias:	keywords
 - Date the article was published. The data should be displayed in the format resembling the following: ‘Aug 13, 1995’.Data type: TEXT,Alias:	publish_date
+# project data
+- CSV file 'news_articles.csv' contains all the articles before filtration.
+- SQL file to create a database contains the article table ( you can use pgadming or whatever you want to access the data )
