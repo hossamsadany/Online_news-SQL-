@@ -8,7 +8,7 @@ The library database has a table articles with a record of all articles publishe
 The final results should be sorted from earliest published date to the most recent published date.
 # requirements
 
-Data Type	Column Alias
+
 - Unique ID of each article, where the first 4 digits represents the journalist ID.	Data type: TEXT, Alias: article_key
 - Category of the article, in uppercase. 'Food & Drink' and 'Wellness' should be collapsed into a 'Lifestyle' category.	Data type: TEXT	,Alias: category
 - Headline of the article, without the subtitle that appears after the colon (:). For example, 'It Could Happen To You: A Story of SEC Overreach' becomes 'It Could Happen To You'.	Data type: TEXT	,Alias: headline
