@@ -1,4 +1,4 @@
-# Online_news_sql
+# Online_news(SQL)
 its A certification Postgresql project using sql query to explore a database table called "articles" provided by datacamp
 # project overview
 Following the changes in working habits during the COVID pandemic, The local library has decided it is time to make the newspaper archives available online. They are not sure what the response will be so they are going to trial a new system on a small set of their data.
