@@ -19,3 +19,13 @@ Data Type	Column Alias
 # project data
 - CSV file 'news_articles.csv' contains all the articles before filtration.
 - SQL file to create a database contains the article table ( you can use pgadming or whatever you want to access the data )
+# Output
+- 188 rows of data effected.
+- contains columns names ( article_key , category , headline, subtitle, description, keywords, publish_date).
+- for the same journalist whos his Id starts with 1754.
+- Food and drink , wellness categories have been collabsed into 'lifestyle' category.
+- the headline of the articles without the subtitle that apears after the colon (:).
+- the subtitle of the articles without the headlines that apears before the colon(:) and the missing values has read as 'None'.
+- the description of the articles reduced to the first sentence including the first period(.).
+- the keywords of the articles and the missing values has read as 'Unkown'
+- the dates of the articles displayed in format "Aug 13, 1995" and sorted by the publish dates asscendly from earliest published date to the most recent published date.
