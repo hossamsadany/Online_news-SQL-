@@ -7,46 +7,12 @@ The library database has a table articles with a record of all articles publishe
 
 The final results should be sorted from earliest published date to the most recent published date.
 # requirements
-<th style="text-align:left;">Requirements</th>
-<th style="text-align:left;">Data Type</th>
-<th style="text-align:left;">Column Alias</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">Unique ID of each article, where the first 4 digits represents the journalist ID.</td>
-<td style="text-align:left;">TEXT</td>
-<td style="text-align:left;">article_key</td>
-</tr>
-<tr>
-<td style="text-align:left;">Category of the article, in uppercase.  'Food &amp; Drink' and 'Wellness' should be collapsed  into a 'Lifestyle' category.</td>
-<td style="text-align:left;">TEXT</td>
-<td style="text-align:left;">category</td>
-</tr>
-<tr>
-<td style="text-align:left;">Headline of the article, without the subtitle that appears after the colon (:).  For example, 'It Could Happen To You: A Story of SEC Overreach' becomes 'It Could Happen To You'.</td>
-<td style="text-align:left;">TEXT</td>
-<td style="text-align:left;">headline</td>
-</tr>
-<tr>
-<td style="text-align:left;">Subtitles of the article, without the headline that appears before the colon (:). For example, 'It Could Happen to You: A Story of SEC Overreach' becomes 'A Story of SEC Overreach'. In cases where a headline does not have a subtitle, the missing value should read ‘None’.</td>
-<td style="text-align:left;">TEXT</td>
-<td style="text-align:left;">subtitle</td>
-</tr>
-<tr>
-<td style="text-align:left;">Description of the article. The description should be reduced to the first sentence, up to and including the first period (.) from the short_description column.</td>
-<td style="text-align:left;">TEXT</td>
-<td style="text-align:left;">description</td>
-</tr>
-<tr>
-<td style="text-align:left;">Keywords of the article. Multiple keywords will be seperated with a dash (-). If the keyword is missing, the value should read ‘Unknown’.</td>
-<td style="text-align:left;">TEXT</td>
-<td style="text-align:left;">keywords</td>
-</tr>
-<tr>
-<td style="text-align:left;">Date the article was published. The data should be displayed in the format resembling the following: ‘Aug 13, 1995’.</td>
-<td style="text-align:left;">TEXT</td>
-<td style="text-align:left;">publish_date</td>
-</tr>
-</tbody>
-</table>
+
+Data Type	Column Alias
+Unique ID of each article, where the first 4 digits represents the journalist ID.	TEXT	article_key
+Category of the article, in uppercase. 'Food & Drink' and 'Wellness' should be collapsed into a 'Lifestyle' category.	TEXT	category
+Headline of the article, without the subtitle that appears after the colon (:). For example, 'It Could Happen To You: A Story of SEC Overreach' becomes 'It Could Happen To You'.	TEXT	headline
+Subtitles of the article, without the headline that appears before the colon (:). For example, 'It Could Happen to You: A Story of SEC Overreach' becomes 'A Story of SEC Overreach'. In cases where a headline does not have a subtitle, the missing value should read ‘None’.	TEXT	subtitle
+Description of the article. The description should be reduced to the first sentence, up to and including the first period (.) from the short_description column.	TEXT	description
+Keywords of the article. Multiple keywords will be seperated with a dash (-). If the keyword is missing, the value should read ‘Unknown’.	TEXT	keywords
+Date the article was published. The data should be displayed in the format resembling the following: ‘Aug 13, 1995’.	TEXT	publish_date
