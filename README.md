@@ -29,3 +29,8 @@ Data Type	Column Alias
 - the description of the articles reduced to the first sentence including the first period(.).
 - the keywords of the articles and the missing values has read as 'Unkown'
 - the dates of the articles displayed in format "Aug 13, 1995" and sorted by the publish dates asscendly from earliest published date to the most recent published date.
+# Running the program in your computer 
+- create the database on your server using pgadmin or any other program
+- load the table from the file news_articles.csv using the sql code on createdb.sql file.
+- create the magic tool %sql and connect to the server
+- run the code in the notebook
